@@ -4,7 +4,13 @@
 
 ## 环境
 
-主要运行依赖为 `torch`、`numpy`、`matplotlib`。
+推荐使用已有的 `torch_cuda` 环境运行。为避免修改环境内的软件包，直接在仓库根目录设置 `PYTHONPATH`：
+
+```powershell
+$env:PYTHONPATH = "$PWD\src"
+```
+
+主要运行依赖为 `torch`、`numpy`、`matplotlib`。本仓库不自动安装这些依赖，避免改动既有计算环境。
 
 ## 快速开始
 
@@ -47,9 +53,9 @@ $env:PYTHONPATH = "$PWD\src"
 
 ```text
 src/rc_frame_analysis/
-  generate.py          # 布局生成
-  analyze.py           # 内力计算与配筋
-  pipeline.py          # 生成 + 分析 流水线
+  generate.py          # 布局生成 CLI
+  analyze.py           # 内力计算与配筋 CLI
+  pipeline.py          # 生成 + 分析流水线 CLI
   analysis_core.py     # 结构分析、荷载组合、配筋和绘图核心逻辑
   layouts/             # 1-9 号布局生成器
 configs/layouts/       # 布局类型说明
