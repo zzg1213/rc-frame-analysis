@@ -4,13 +4,7 @@
 
 ## 环境
 
-推荐使用已有的 `torch_cuda` 环境运行。为避免修改环境内的软件包，直接在仓库根目录设置 `PYTHONPATH`：
-
-```powershell
-$env:PYTHONPATH = "$PWD\src"
-```
-
-主要运行依赖为 `torch`、`numpy`、`matplotlib`。本仓库不自动安装这些依赖，避免改动既有计算环境。
+主要运行依赖为 `torch`、`numpy`、`matplotlib`。
 
 ## 快速开始
 
