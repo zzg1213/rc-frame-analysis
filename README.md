@@ -47,9 +47,9 @@ $env:PYTHONPATH = "$PWD\src"
 
 ```text
 src/rc_frame_analysis/
-  generate.py          # 布局生成 CLI
-  analyze.py           # 内力计算与配筋 CLI
-  pipeline.py          # 生成 + 分析流水线 CLI
+  generate.py          # 布局生成
+  analyze.py           # 内力计算与配筋
+  pipeline.py          # 生成 + 分析 流水线
   analysis_core.py     # 结构分析、荷载组合、配筋和绘图核心逻辑
   layouts/             # 1-9 号布局生成器
 configs/layouts/       # 布局类型说明
