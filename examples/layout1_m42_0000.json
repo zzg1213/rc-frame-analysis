@@ -1,0 +1,924 @@
+{
+  "parameters": {
+    "structure_type": "RC_Frame",
+    "num_stories": 8
+  },
+  "geometry": {
+    "grid_x": [
+      0.0,
+      4200.0,
+      8400.0,
+      12600.0,
+      16800.0,
+      21000.0,
+      25200.0,
+      29400.0,
+      33600.0
+    ],
+    "grid_y": [
+      0.0,
+      3600.0,
+      6600.0,
+      10200.0
+    ],
+    "grid_z": [
+      0.0,
+      3300.0,
+      6600.0,
+      9900.0,
+      13200.0,
+      16500.0,
+      19800.0,
+      23100.0,
+      26400.0
+    ]
+  },
+  "nodes": {
+    "N_0_0": {
+      "x": 0.0,
+      "y": 0.0
+    },
+    "N_1_0": {
+      "x": 4200.0,
+      "y": 0.0
+    },
+    "N_2_0": {
+      "x": 8400.0,
+      "y": 0.0
+    },
+    "N_3_0": {
+      "x": 12600.0,
+      "y": 0.0
+    },
+    "N_4_0": {
+      "x": 16800.0,
+      "y": 0.0
+    },
+    "N_5_0": {
+      "x": 21000.0,
+      "y": 0.0
+    },
+    "N_6_0": {
+      "x": 25200.0,
+      "y": 0.0
+    },
+    "N_7_0": {
+      "x": 29400.0,
+      "y": 0.0
+    },
+    "N_8_0": {
+      "x": 33600.0,
+      "y": 0.0
+    },
+    "N_0_1": {
+      "x": 0.0,
+      "y": 3600.0
+    },
+    "N_1_1": {
+      "x": 4200.0,
+      "y": 3600.0
+    },
+    "N_2_1": {
+      "x": 8400.0,
+      "y": 3600.0
+    },
+    "N_3_1": {
+      "x": 12600.0,
+      "y": 3600.0
+    },
+    "N_4_1": {
+      "x": 16800.0,
+      "y": 3600.0
+    },
+    "N_5_1": {
+      "x": 21000.0,
+      "y": 3600.0
+    },
+    "N_6_1": {
+      "x": 25200.0,
+      "y": 3600.0
+    },
+    "N_7_1": {
+      "x": 29400.0,
+      "y": 3600.0
+    },
+    "N_8_1": {
+      "x": 33600.0,
+      "y": 3600.0
+    },
+    "N_0_2": {
+      "x": 0.0,
+      "y": 6600.0
+    },
+    "N_1_2": {
+      "x": 4200.0,
+      "y": 6600.0
+    },
+    "N_2_2": {
+      "x": 8400.0,
+      "y": 6600.0
+    },
+    "N_3_2": {
+      "x": 12600.0,
+      "y": 6600.0
+    },
+    "N_4_2": {
+      "x": 16800.0,
+      "y": 6600.0
+    },
+    "N_5_2": {
+      "x": 21000.0,
+      "y": 6600.0
+    },
+    "N_6_2": {
+      "x": 25200.0,
+      "y": 6600.0
+    },
+    "N_7_2": {
+      "x": 29400.0,
+      "y": 6600.0
+    },
+    "N_8_2": {
+      "x": 33600.0,
+      "y": 6600.0
+    },
+    "N_0_3": {
+      "x": 0.0,
+      "y": 10200.0
+    },
+    "N_1_3": {
+      "x": 4200.0,
+      "y": 10200.0
+    },
+    "N_2_3": {
+      "x": 8400.0,
+      "y": 10200.0
+    },
+    "N_3_3": {
+      "x": 12600.0,
+      "y": 10200.0
+    },
+    "N_4_3": {
+      "x": 16800.0,
+      "y": 10200.0
+    },
+    "N_5_3": {
+      "x": 21000.0,
+      "y": 10200.0
+    },
+    "N_6_3": {
+      "x": 25200.0,
+      "y": 10200.0
+    },
+    "N_7_3": {
+      "x": 29400.0,
+      "y": 10200.0
+    },
+    "N_8_3": {
+      "x": 33600.0,
+      "y": 10200.0
+    }
+  },
+  "sections": {
+    "beam1": {
+      "b": 350.0,
+      "h": 500.0
+    },
+    "column1": {
+      "b": 450.0,
+      "h": 450.0
+    }
+  },
+  "columns": {
+    "01-08": {
+      "C_0_0": {
+        "node": "N_0_0",
+        "direction": "Z",
+        "length": 3300.0,
+        "section": "column1",
+        "reinforcement_id": "RC_01"
+      },
+      "C_1_0": {
+        "node": "N_1_0",
+        "direction": "Z",
+        "length": 3300.0,
+        "section": "column1",
+        "reinforcement_id": "RC_01"
+      },
+      "C_2_0": {
+        "node": "N_2_0",
+        "direction": "Z",
+        "length": 3300.0,
+        "section": "column1",
+        "reinforcement_id": "RC_01"
+      },
+      "C_3_0": {
+        "node": "N_3_0",
+        "direction": "Z",
+        "length": 3300.0,
+        "section": "column1",
+        "reinforcement_id": "RC_01"
+      },
+      "C_4_0": {
+        "node": "N_4_0",
+        "direction": "Z",
+        "length": 3300.0,
+        "section": "column1",
+        "reinforcement_id": "RC_01"
+      },
+      "C_5_0": {
+        "node": "N_5_0",
+        "direction": "Z",
+        "length": 3300.0,
+        "section": "column1",
+        "reinforcement_id": "RC_01"
+      },
+      "C_6_0": {
+        "node": "N_6_0",
+        "direction": "Z",
+        "length": 3300.0,
+        "section": "column1",
+        "reinforcement_id": "RC_01"
+      },
+      "C_7_0": {
+        "node": "N_7_0",
+        "direction": "Z",
+        "length": 3300.0,
+        "section": "column1",
+        "reinforcement_id": "RC_01"
+      },
+      "C_8_0": {
+        "node": "N_8_0",
+        "direction": "Z",
+        "length": 3300.0,
+        "section": "column1",
+        "reinforcement_id": "RC_01"
+      },
+      "C_0_1": {
+        "node": "N_0_1",
+        "direction": "Z",
+        "length": 3300.0,
+        "section": "column1",
+        "reinforcement_id": "RC_01"
+      },
+      "C_1_1": {
+        "node": "N_1_1",
+        "direction": "Z",
+        "length": 3300.0,
+        "section": "column1",
+        "reinforcement_id": "RC_01"
+      },
+      "C_2_1": {
+        "node": "N_2_1",
+        "direction": "Z",
+        "length": 3300.0,
+        "section": "column1",
+        "reinforcement_id": "RC_01"
+      },
+      "C_3_1": {
+        "node": "N_3_1",
+        "direction": "Z",
+        "length": 3300.0,
+        "section": "column1",
+        "reinforcement_id": "RC_01"
+      },
+      "C_4_1": {
+        "node": "N_4_1",
+        "direction": "Z",
+        "length": 3300.0,
+        "section": "column1",
+        "reinforcement_id": "RC_01"
+      },
+      "C_5_1": {
+        "node": "N_5_1",
+        "direction": "Z",
+        "length": 3300.0,
+        "section": "column1",
+        "reinforcement_id": "RC_01"
+      },
+      "C_6_1": {
+        "node": "N_6_1",
+        "direction": "Z",
+        "length": 3300.0,
+        "section": "column1",
+        "reinforcement_id": "RC_01"
+      },
+      "C_7_1": {
+        "node": "N_7_1",
+        "direction": "Z",
+        "length": 3300.0,
+        "section": "column1",
+        "reinforcement_id": "RC_01"
+      },
+      "C_8_1": {
+        "node": "N_8_1",
+        "direction": "Z",
+        "length": 3300.0,
+        "section": "column1",
+        "reinforcement_id": "RC_01"
+      },
+      "C_0_2": {
+        "node": "N_0_2",
+        "direction": "Z",
+        "length": 3300.0,
+        "section": "column1",
+        "reinforcement_id": "RC_01"
+      },
+      "C_1_2": {
+        "node": "N_1_2",
+        "direction": "Z",
+        "length": 3300.0,
+        "section": "column1",
+        "reinforcement_id": "RC_01"
+      },
+      "C_2_2": {
+        "node": "N_2_2",
+        "direction": "Z",
+        "length": 3300.0,
+        "section": "column1",
+        "reinforcement_id": "RC_01"
+      },
+      "C_3_2": {
+        "node": "N_3_2",
+        "direction": "Z",
+        "length": 3300.0,
+        "section": "column1",
+        "reinforcement_id": "RC_01"
+      },
+      "C_4_2": {
+        "node": "N_4_2",
+        "direction": "Z",
+        "length": 3300.0,
+        "section": "column1",
+        "reinforcement_id": "RC_01"
+      },
+      "C_5_2": {
+        "node": "N_5_2",
+        "direction": "Z",
+        "length": 3300.0,
+        "section": "column1",
+        "reinforcement_id": "RC_01"
+      },
+      "C_6_2": {
+        "node": "N_6_2",
+        "direction": "Z",
+        "length": 3300.0,
+        "section": "column1",
+        "reinforcement_id": "RC_01"
+      },
+      "C_7_2": {
+        "node": "N_7_2",
+        "direction": "Z",
+        "length": 3300.0,
+        "section": "column1",
+        "reinforcement_id": "RC_01"
+      },
+      "C_8_2": {
+        "node": "N_8_2",
+        "direction": "Z",
+        "length": 3300.0,
+        "section": "column1",
+        "reinforcement_id": "RC_01"
+      },
+      "C_0_3": {
+        "node": "N_0_3",
+        "direction": "Z",
+        "length": 3300.0,
+        "section": "column1",
+        "reinforcement_id": "RC_01"
+      },
+      "C_1_3": {
+        "node": "N_1_3",
+        "direction": "Z",
+        "length": 3300.0,
+        "section": "column1",
+        "reinforcement_id": "RC_01"
+      },
+      "C_2_3": {
+        "node": "N_2_3",
+        "direction": "Z",
+        "length": 3300.0,
+        "section": "column1",
+        "reinforcement_id": "RC_01"
+      },
+      "C_3_3": {
+        "node": "N_3_3",
+        "direction": "Z",
+        "length": 3300.0,
+        "section": "column1",
+        "reinforcement_id": "RC_01"
+      },
+      "C_4_3": {
+        "node": "N_4_3",
+        "direction": "Z",
+        "length": 3300.0,
+        "section": "column1",
+        "reinforcement_id": "RC_01"
+      },
+      "C_5_3": {
+        "node": "N_5_3",
+        "direction": "Z",
+        "length": 3300.0,
+        "section": "column1",
+        "reinforcement_id": "RC_01"
+      },
+      "C_6_3": {
+        "node": "N_6_3",
+        "direction": "Z",
+        "length": 3300.0,
+        "section": "column1",
+        "reinforcement_id": "RC_01"
+      },
+      "C_7_3": {
+        "node": "N_7_3",
+        "direction": "Z",
+        "length": 3300.0,
+        "section": "column1",
+        "reinforcement_id": "RC_01"
+      },
+      "C_8_3": {
+        "node": "N_8_3",
+        "direction": "Z",
+        "length": 3300.0,
+        "section": "column1",
+        "reinforcement_id": "RC_01"
+      }
+    }
+  },
+  "beams": {
+    "01-08": {
+      "B_0_0_1": {
+        "i_node": "N_0_0",
+        "j_node": "N_1_0",
+        "direction": "X",
+        "length": 4200.0,
+        "section": "beam1",
+        "reinforcement_id": "RB_01"
+      },
+      "B_1_0_1": {
+        "i_node": "N_1_0",
+        "j_node": "N_2_0",
+        "direction": "X",
+        "length": 4200.0,
+        "section": "beam1",
+        "reinforcement_id": "RB_01"
+      },
+      "B_2_0_1": {
+        "i_node": "N_2_0",
+        "j_node": "N_3_0",
+        "direction": "X",
+        "length": 4200.0,
+        "section": "beam1",
+        "reinforcement_id": "RB_01"
+      },
+      "B_3_0_1": {
+        "i_node": "N_3_0",
+        "j_node": "N_4_0",
+        "direction": "X",
+        "length": 4200.0,
+        "section": "beam1",
+        "reinforcement_id": "RB_01"
+      },
+      "B_4_0_1": {
+        "i_node": "N_4_0",
+        "j_node": "N_5_0",
+        "direction": "X",
+        "length": 4200.0,
+        "section": "beam1",
+        "reinforcement_id": "RB_01"
+      },
+      "B_5_0_1": {
+        "i_node": "N_5_0",
+        "j_node": "N_6_0",
+        "direction": "X",
+        "length": 4200.0,
+        "section": "beam1",
+        "reinforcement_id": "RB_01"
+      },
+      "B_6_0_1": {
+        "i_node": "N_6_0",
+        "j_node": "N_7_0",
+        "direction": "X",
+        "length": 4200.0,
+        "section": "beam1",
+        "reinforcement_id": "RB_01"
+      },
+      "B_7_0_1": {
+        "i_node": "N_7_0",
+        "j_node": "N_8_0",
+        "direction": "X",
+        "length": 4200.0,
+        "section": "beam1",
+        "reinforcement_id": "RB_01"
+      },
+      "B_0_1_1": {
+        "i_node": "N_0_1",
+        "j_node": "N_1_1",
+        "direction": "X",
+        "length": 4200.0,
+        "section": "beam1",
+        "reinforcement_id": "RB_01"
+      },
+      "B_1_1_1": {
+        "i_node": "N_1_1",
+        "j_node": "N_2_1",
+        "direction": "X",
+        "length": 4200.0,
+        "section": "beam1",
+        "reinforcement_id": "RB_01"
+      },
+      "B_2_1_1": {
+        "i_node": "N_2_1",
+        "j_node": "N_3_1",
+        "direction": "X",
+        "length": 4200.0,
+        "section": "beam1",
+        "reinforcement_id": "RB_01"
+      },
+      "B_3_1_1": {
+        "i_node": "N_3_1",
+        "j_node": "N_4_1",
+        "direction": "X",
+        "length": 4200.0,
+        "section": "beam1",
+        "reinforcement_id": "RB_01"
+      },
+      "B_4_1_1": {
+        "i_node": "N_4_1",
+        "j_node": "N_5_1",
+        "direction": "X",
+        "length": 4200.0,
+        "section": "beam1",
+        "reinforcement_id": "RB_01"
+      },
+      "B_5_1_1": {
+        "i_node": "N_5_1",
+        "j_node": "N_6_1",
+        "direction": "X",
+        "length": 4200.0,
+        "section": "beam1",
+        "reinforcement_id": "RB_01"
+      },
+      "B_6_1_1": {
+        "i_node": "N_6_1",
+        "j_node": "N_7_1",
+        "direction": "X",
+        "length": 4200.0,
+        "section": "beam1",
+        "reinforcement_id": "RB_01"
+      },
+      "B_7_1_1": {
+        "i_node": "N_7_1",
+        "j_node": "N_8_1",
+        "direction": "X",
+        "length": 4200.0,
+        "section": "beam1",
+        "reinforcement_id": "RB_01"
+      },
+      "B_0_2_1": {
+        "i_node": "N_0_2",
+        "j_node": "N_1_2",
+        "direction": "X",
+        "length": 4200.0,
+        "section": "beam1",
+        "reinforcement_id": "RB_01"
+      },
+      "B_1_2_1": {
+        "i_node": "N_1_2",
+        "j_node": "N_2_2",
+        "direction": "X",
+        "length": 4200.0,
+        "section": "beam1",
+        "reinforcement_id": "RB_01"
+      },
+      "B_2_2_1": {
+        "i_node": "N_2_2",
+        "j_node": "N_3_2",
+        "direction": "X",
+        "length": 4200.0,
+        "section": "beam1",
+        "reinforcement_id": "RB_01"
+      },
+      "B_3_2_1": {
+        "i_node": "N_3_2",
+        "j_node": "N_4_2",
+        "direction": "X",
+        "length": 4200.0,
+        "section": "beam1",
+        "reinforcement_id": "RB_01"
+      },
+      "B_4_2_1": {
+        "i_node": "N_4_2",
+        "j_node": "N_5_2",
+        "direction": "X",
+        "length": 4200.0,
+        "section": "beam1",
+        "reinforcement_id": "RB_01"
+      },
+      "B_5_2_1": {
+        "i_node": "N_5_2",
+        "j_node": "N_6_2",
+        "direction": "X",
+        "length": 4200.0,
+        "section": "beam1",
+        "reinforcement_id": "RB_01"
+      },
+      "B_6_2_1": {
+        "i_node": "N_6_2",
+        "j_node": "N_7_2",
+        "direction": "X",
+        "length": 4200.0,
+        "section": "beam1",
+        "reinforcement_id": "RB_01"
+      },
+      "B_7_2_1": {
+        "i_node": "N_7_2",
+        "j_node": "N_8_2",
+        "direction": "X",
+        "length": 4200.0,
+        "section": "beam1",
+        "reinforcement_id": "RB_01"
+      },
+      "B_0_3_1": {
+        "i_node": "N_0_3",
+        "j_node": "N_1_3",
+        "direction": "X",
+        "length": 4200.0,
+        "section": "beam1",
+        "reinforcement_id": "RB_01"
+      },
+      "B_1_3_1": {
+        "i_node": "N_1_3",
+        "j_node": "N_2_3",
+        "direction": "X",
+        "length": 4200.0,
+        "section": "beam1",
+        "reinforcement_id": "RB_01"
+      },
+      "B_2_3_1": {
+        "i_node": "N_2_3",
+        "j_node": "N_3_3",
+        "direction": "X",
+        "length": 4200.0,
+        "section": "beam1",
+        "reinforcement_id": "RB_01"
+      },
+      "B_3_3_1": {
+        "i_node": "N_3_3",
+        "j_node": "N_4_3",
+        "direction": "X",
+        "length": 4200.0,
+        "section": "beam1",
+        "reinforcement_id": "RB_01"
+      },
+      "B_4_3_1": {
+        "i_node": "N_4_3",
+        "j_node": "N_5_3",
+        "direction": "X",
+        "length": 4200.0,
+        "section": "beam1",
+        "reinforcement_id": "RB_01"
+      },
+      "B_5_3_1": {
+        "i_node": "N_5_3",
+        "j_node": "N_6_3",
+        "direction": "X",
+        "length": 4200.0,
+        "section": "beam1",
+        "reinforcement_id": "RB_01"
+      },
+      "B_6_3_1": {
+        "i_node": "N_6_3",
+        "j_node": "N_7_3",
+        "direction": "X",
+        "length": 4200.0,
+        "section": "beam1",
+        "reinforcement_id": "RB_01"
+      },
+      "B_7_3_1": {
+        "i_node": "N_7_3",
+        "j_node": "N_8_3",
+        "direction": "X",
+        "length": 4200.0,
+        "section": "beam1",
+        "reinforcement_id": "RB_01"
+      },
+      "B_0_0_2": {
+        "i_node": "N_0_0",
+        "j_node": "N_0_1",
+        "direction": "Y",
+        "length": 3600.0,
+        "section": "beam1",
+        "reinforcement_id": "RB_01"
+      },
+      "B_0_1_2": {
+        "i_node": "N_0_1",
+        "j_node": "N_0_2",
+        "direction": "Y",
+        "length": 3000.0,
+        "section": "beam1",
+        "reinforcement_id": "RB_01"
+      },
+      "B_0_2_2": {
+        "i_node": "N_0_2",
+        "j_node": "N_0_3",
+        "direction": "Y",
+        "length": 3600.0,
+        "section": "beam1",
+        "reinforcement_id": "RB_01"
+      },
+      "B_1_0_2": {
+        "i_node": "N_1_0",
+        "j_node": "N_1_1",
+        "direction": "Y",
+        "length": 3600.0,
+        "section": "beam1",
+        "reinforcement_id": "RB_01"
+      },
+      "B_1_1_2": {
+        "i_node": "N_1_1",
+        "j_node": "N_1_2",
+        "direction": "Y",
+        "length": 3000.0,
+        "section": "beam1",
+        "reinforcement_id": "RB_01"
+      },
+      "B_1_2_2": {
+        "i_node": "N_1_2",
+        "j_node": "N_1_3",
+        "direction": "Y",
+        "length": 3600.0,
+        "section": "beam1",
+        "reinforcement_id": "RB_01"
+      },
+      "B_2_0_2": {
+        "i_node": "N_2_0",
+        "j_node": "N_2_1",
+        "direction": "Y",
+        "length": 3600.0,
+        "section": "beam1",
+        "reinforcement_id": "RB_01"
+      },
+      "B_2_1_2": {
+        "i_node": "N_2_1",
+        "j_node": "N_2_2",
+        "direction": "Y",
+        "length": 3000.0,
+        "section": "beam1",
+        "reinforcement_id": "RB_01"
+      },
+      "B_2_2_2": {
+        "i_node": "N_2_2",
+        "j_node": "N_2_3",
+        "direction": "Y",
+        "length": 3600.0,
+        "section": "beam1",
+        "reinforcement_id": "RB_01"
+      },
+      "B_3_0_2": {
+        "i_node": "N_3_0",
+        "j_node": "N_3_1",
+        "direction": "Y",
+        "length": 3600.0,
+        "section": "beam1",
+        "reinforcement_id": "RB_01"
+      },
+      "B_3_1_2": {
+        "i_node": "N_3_1",
+        "j_node": "N_3_2",
+        "direction": "Y",
+        "length": 3000.0,
+        "section": "beam1",
+        "reinforcement_id": "RB_01"
+      },
+      "B_3_2_2": {
+        "i_node": "N_3_2",
+        "j_node": "N_3_3",
+        "direction": "Y",
+        "length": 3600.0,
+        "section": "beam1",
+        "reinforcement_id": "RB_01"
+      },
+      "B_4_0_2": {
+        "i_node": "N_4_0",
+        "j_node": "N_4_1",
+        "direction": "Y",
+        "length": 3600.0,
+        "section": "beam1",
+        "reinforcement_id": "RB_01"
+      },
+      "B_4_1_2": {
+        "i_node": "N_4_1",
+        "j_node": "N_4_2",
+        "direction": "Y",
+        "length": 3000.0,
+        "section": "beam1",
+        "reinforcement_id": "RB_01"
+      },
+      "B_4_2_2": {
+        "i_node": "N_4_2",
+        "j_node": "N_4_3",
+        "direction": "Y",
+        "length": 3600.0,
+        "section": "beam1",
+        "reinforcement_id": "RB_01"
+      },
+      "B_5_0_2": {
+        "i_node": "N_5_0",
+        "j_node": "N_5_1",
+        "direction": "Y",
+        "length": 3600.0,
+        "section": "beam1",
+        "reinforcement_id": "RB_01"
+      },
+      "B_5_1_2": {
+        "i_node": "N_5_1",
+        "j_node": "N_5_2",
+        "direction": "Y",
+        "length": 3000.0,
+        "section": "beam1",
+        "reinforcement_id": "RB_01"
+      },
+      "B_5_2_2": {
+        "i_node": "N_5_2",
+        "j_node": "N_5_3",
+        "direction": "Y",
+        "length": 3600.0,
+        "section": "beam1",
+        "reinforcement_id": "RB_01"
+      },
+      "B_6_0_2": {
+        "i_node": "N_6_0",
+        "j_node": "N_6_1",
+        "direction": "Y",
+        "length": 3600.0,
+        "section": "beam1",
+        "reinforcement_id": "RB_01"
+      },
+      "B_6_1_2": {
+        "i_node": "N_6_1",
+        "j_node": "N_6_2",
+        "direction": "Y",
+        "length": 3000.0,
+        "section": "beam1",
+        "reinforcement_id": "RB_01"
+      },
+      "B_6_2_2": {
+        "i_node": "N_6_2",
+        "j_node": "N_6_3",
+        "direction": "Y",
+        "length": 3600.0,
+        "section": "beam1",
+        "reinforcement_id": "RB_01"
+      },
+      "B_7_0_2": {
+        "i_node": "N_7_0",
+        "j_node": "N_7_1",
+        "direction": "Y",
+        "length": 3600.0,
+        "section": "beam1",
+        "reinforcement_id": "RB_01"
+      },
+      "B_7_1_2": {
+        "i_node": "N_7_1",
+        "j_node": "N_7_2",
+        "direction": "Y",
+        "length": 3000.0,
+        "section": "beam1",
+        "reinforcement_id": "RB_01"
+      },
+      "B_7_2_2": {
+        "i_node": "N_7_2",
+        "j_node": "N_7_3",
+        "direction": "Y",
+        "length": 3600.0,
+        "section": "beam1",
+        "reinforcement_id": "RB_01"
+      },
+      "B_8_0_2": {
+        "i_node": "N_8_0",
+        "j_node": "N_8_1",
+        "direction": "Y",
+        "length": 3600.0,
+        "section": "beam1",
+        "reinforcement_id": "RB_01"
+      },
+      "B_8_1_2": {
+        "i_node": "N_8_1",
+        "j_node": "N_8_2",
+        "direction": "Y",
+        "length": 3000.0,
+        "section": "beam1",
+        "reinforcement_id": "RB_01"
+      },
+      "B_8_2_2": {
+        "i_node": "N_8_2",
+        "j_node": "N_8_3",
+        "direction": "Y",
+        "length": 3600.0,
+        "section": "beam1",
+        "reinforcement_id": "RB_01"
+      }
+    }
+  }
+}

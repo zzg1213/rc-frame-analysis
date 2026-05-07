@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rc-frame-analysis"
+version = "0.1.0"
+description = "RC frame layout dataset generation, internal-force analysis, and reinforcement design tools."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "zzg1213" }
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
